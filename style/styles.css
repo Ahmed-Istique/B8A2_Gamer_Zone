@@ -2,12 +2,25 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+head {
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+}
+
 .common_description {
+    /* border: 1px solid red; */
     color: #534C64;
     font-family: Work Sans;
     font-size: 1rem;
     font-style: normal;
 
+}
+
+.play_game_text_two{
+    padding-left: 56px;
 }
 
 .head {
@@ -51,6 +64,7 @@ body {
 .head_img_text {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -87,8 +101,11 @@ ul>li {
 /* header css starts here */
 /* header css ends here */
 .banner_text {
-    background-color: #F948B2;
-    background: url("images/Group14.png");
+    /* background-color: #8758F1; */
+
+    width: 100%;
+    background-repeat: no-repeat;
+
 }
 
 .gota_text {
@@ -125,21 +142,25 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.about_info{
+
+.about_info {
     display: flex;
     gap: 12px;
 }
-.banner{
-    border: 1px solid red;
+
+.banner {
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
+    background: url(../images/Group14.png);
+    background-repeat: no-repeat;
 }
 
 /* banner design css starts */
 
 /* banner design css ends */
 /* main css ends here */
-.we_are_gamer {}
+
 
 .gamer_title {
     font-family: Work Sans;
@@ -176,14 +197,13 @@ main {
 
 .gamer_description {
     color: #534C64;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     font-family: Work Sans;
     font-size: 1rem;
     font-style: normal;
     margin-top: 24px;
     margin-bottom: 32px;
-    text-align: ;
 
 
 }
@@ -202,13 +222,13 @@ main {
 
 .we_are_gamer {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     margin-top: 55px;
 }
 
 .we_gamer_img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 700px;
 }
 
@@ -270,49 +290,283 @@ main {
     margin: 0px;
 }
 
-.play_game_text {
-    border: 1px solid red;
-    margin-right: 250px;
-    margin-left: 120px;
-    text-align: center;
-}
 
 .instantly {
     color: #FF42A5;
 }
 
 .play_game_1 {
-    width: 420px;
-    height: 100%;
+    width: 481px;
+    height: 512px;
+}
+.play_game_3{
+    width: 604px;
+    height: 613px;
+}
+
+.play_game_text_one{
+    padding-left: 107px;
+    text-align: right;
+    padding-right: 50px;
 }
 
 .play_game_2 {
-    width: 250;
-    height: 259px;
-    border-radius: 8px;
-    border: 10px solid #FFF;
     position: relative;
-    bottom: 200px;
-    right: 125px;
+    top: 202px;
+    right: 0px;
+    width: 226%;
+    /* height: 40%; */
+}
+.play_game_4{
+    position: relative;
+    top: 257px;
+    right: 164px;
+    width: 243%;
 }
 
 .play_game {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    align-items: center;
     justify-content: center;
-
+    align-items: center;
+    margin-bottom: 196px;
+    margin-top: 120px;
 
 }
 
 .play_game_media {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
+    /* margin-top: 240px; */
 }
+
+
 
 /* section 3: play game anywhere ends */
 
+/* career css starts */
+.Careers_content {
+    max-width: 1140px;
+}
+
+#careers {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0px;
+    /* 125% */
+}
+
+#careers_description {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.13rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    /* border: 1px solid red; */
+    /* 166.667% */
+}
+
+.career_text_align {
+    display: flex;
+}
+
+.row_text {
+    margin-right: 92px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+}
+
+.Careers {
+    background-color: #FF42A5;
+
+
+
+}
+
+.category {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* display: flex;
+    flex-wrap: wrap; */
+    -ms-grid-row-align: center;
+}
+
+.career_mediea {
+    /* background-image: url('../images/Group\ 18.png') */
+    width: 800px;
+    height: 700px;
+
+
+
+}
+
+.career_text_container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 240px;
+    /* border: 1px solid red; */
+
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.See_all_positions {
+    border-radius: 48px;
+    background: #FFF;
+
+    padding: 21px 40px;
+
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    border: 0;
+    /* text-transform: uppercase; */
+    color: #F948B2;
+    margin-top: 40px;
+
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+/* game type css starts */
+
+.div_one {
+    display: flex;
+}
+
+.img_cat {
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 18px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+.text_cat {
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.image_categories {
+    margin: 130px auto;
+}
+
+.div_one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 37px;
+}
+
+.div_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_cat_special {
+    display: flex;
+    border: 1px solid #FF42A5;
+    gap: 18px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px 20px;
+}
+
+.text_cat_special {
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    color: #FF42A5;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category_img_size {
+    width: 60px;
+    height: 60px;
+}
+
+/* game type css ends */
+/* career css ends */
 /* footer css starts here */
+.footer {
+    background: #0B0223;
+    align-items: center;
+    padding: 130px 0;
+
+}
+
+.footer_data {
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: Work Sans;
+    font-size: 1rem;
+    color: #FFF;
+    margin-bottom: 66px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-family: Work Sans;
+    font-size: 1rem;
+    margin-bottom: 72px;
+}
+
+.impoprtant_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    /* text-align: center; */
+    font-family: Work Sans;
+    font-size: 1rem;
+    margin-bottom: 28px;
+
+}
+
+.copy_right {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_text {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+
+}
+
+
 /* footer css ends here */
 
 /* responsive css starts */
