@@ -584,7 +584,12 @@ main {
     .video_media,
     .play_game,
     .career_text_container,
-    .career_text_align
+    .career_text_align,
+    .div_one,
+    .div_two,
+    .link,
+    .icon,
+    .impoprtant_link
      {
         flex-direction: column;
     }
@@ -688,6 +693,22 @@ padding: 0;
  }
  .See_all_positions{
   
+ }
+ .image_categories{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+ }
+ .link {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+ }
+ .icon{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+ }
+ .impoprtant_link{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
  }
 }
 /* responsive css ends */
