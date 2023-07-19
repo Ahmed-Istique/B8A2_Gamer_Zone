@@ -19,7 +19,7 @@ footer {
 
 }
 
-.play_game_text_two{
+.play_game_text_two {
     padding-left: 56px;
 }
 
@@ -73,9 +73,6 @@ footer {
     text-align: center;
     font-family: Work Sans;
     font-size: 1.13rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     display: flex;
     margin-right: 24px;
     padding: 18px 24px;
@@ -299,12 +296,13 @@ main {
     width: 481px;
     height: 512px;
 }
-.play_game_3{
+
+.play_game_3 {
     width: 604px;
     height: 613px;
 }
 
-.play_game_text_one{
+.play_game_text_one {
     padding-left: 107px;
     text-align: right;
     padding-right: 50px;
@@ -317,7 +315,8 @@ main {
     width: 226%;
     /* height: 40%; */
 }
-.play_game_4{
+
+.play_game_4 {
     position: relative;
     top: 257px;
     right: 164px;
@@ -332,6 +331,13 @@ main {
     margin-bottom: 196px;
     margin-top: 120px;
 
+}
+.play_game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 196px;
+    margin-top: 120px;
 }
 
 .play_game_media {
@@ -380,7 +386,7 @@ main {
     margin-right: 92px;
     color: #FFF;
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .Careers {
@@ -570,4 +576,118 @@ main {
 /* footer css ends here */
 
 /* responsive css starts */
+@media screen and (max-width: 576px) {
+
+    .head_deatils,
+    .links,
+    .we_are_gamer,
+    .video_media,
+    .play_game,
+    .career_text_container,
+    .career_text_align
+     {
+        flex-direction: column;
+    }
+
+    .links {
+        margin: 0;
+        padding: 0;
+    }
+
+    .Follow_Us {
+        margin: 0;
+    }
+
+    ul>li {
+        margin-right: 18px;
+    }
+
+    .we_gamer_img {
+        width: 100%;
+    }
+
+    .we_gamer {
+
+        text-align: center;
+
+    }
+
+    .we_gamer {
+        margin: 0;
+    }
+
+    .Our_purpose,
+    .gamer_title {
+        text-align: center;
+    }
+
+    .head {
+        padding: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .play_game_text_one {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .play_game_1 {
+        width: 86%;
+        height: 100%;
+    }
+
+    .play_game_2 {
+        position: relative;
+        top: 381px;
+        right: 82px;
+        width: 39%;
+
+    }
+
+    .play_game_3 {
+        width: 86%;
+        height: 100%;
+    }
+
+    .play_game_4 {
+        position: relative;
+        top: -101px;
+        right: -179px;
+        width: 45%;
+    }
+
+    .play_game_play_instant {
+        align-items: center;
+        padding: 20px;
+    }
+
+    .play_game_text_two {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .career_mediea {
+        width: 100%;
+        height: 100%;
+    }
+    .career_text_container{
+        padding: 0;
+        
+    }
+ .play_game_1{
+margin: 0;
+padding: 0;
+ }
+ .play_game_play_instant{
+    display: none;
+ }
+ .Careers_content{
+    padding: 20px;
+    max-width: 1140px;
+ }
+ .See_all_positions{
+  
+ }
+}
 /* responsive css ends */
