@@ -276,6 +276,43 @@ main {
     width: 265px;
     height: 290px;
 }
+.online_video_spe {
+    width: 265px;
+    height: 290px;
+
+}
+.online_game_media_op{
+    position: relative;
+  display: inline-block;
+}
+.play-button{
+    position: absolute;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    top: 38%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #0B0223;
+}
+.play-button::before {
+    content: '';
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent white;
+  }
+.video_text{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
 
 /* section 2: online game videos css ends */
 /* section 3: play game anywhere starts */
@@ -341,9 +378,7 @@ main {
 }
 
 .play_game_media {
-    /* border: 1px solid red; */
     align-items: center;
-    /* margin-top: 240px; */
 }
 
 
@@ -374,8 +409,6 @@ main {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 32px;
-    /* border: 1px solid red; */
-    /* 166.667% */
 }
 
 .career_text_align {
@@ -391,56 +424,37 @@ main {
 
 .Careers {
     background-color: #FF42A5;
-
-
-
 }
 
 .category {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* display: flex;
-    flex-wrap: wrap; */
     -ms-grid-row-align: center;
 }
 
 .career_mediea {
-    /* background-image: url('../images/Group\ 18.png') */
     width: 800px;
     height: 700px;
-
-
-
 }
 
 .career_text_container {
     display: flex;
     justify-content: space-around;
     padding-left: 240px;
-    /* border: 1px solid red; */
-
-    /* justify-content: space-between; */
     align-items: center;
 }
 
 .See_all_positions {
     border-radius: 48px;
     background: #FFF;
-
     padding: 21px 40px;
-
     font-family: Work Sans;
     font-size: 1.25rem;
     border: 0;
-    /* text-transform: uppercase; */
     color: #F948B2;
     margin-top: 40px;
-
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
 }
 
-/* game type css starts */
 
 .div_one {
     display: flex;
@@ -448,7 +462,6 @@ main {
 
 .img_cat {
     display: flex;
-    /* border: 1px solid red; */
     gap: 18px;
     border-radius: 50px;
     background: #FFF;
@@ -504,9 +517,6 @@ main {
     height: 60px;
 }
 
-/* game type css ends */
-/* career css ends */
-/* footer css starts here */
 .footer {
     background: #0B0223;
     align-items: center;
@@ -547,7 +557,6 @@ main {
     justify-content: center;
     gap: 60px;
     color: rgba(255, 255, 255, 0.60);
-    /* text-align: center; */
     font-family: Work Sans;
     font-size: 1rem;
     margin-bottom: 28px;
@@ -589,7 +598,8 @@ main {
     .div_two,
     .link,
     .icon,
-    .impoprtant_link
+    .impoprtant_link,
+    .banner
      {
         flex-direction: column;
     }
@@ -644,8 +654,8 @@ main {
 
     .play_game_2 {
         position: relative;
-        top: 381px;
-        right: 82px;
+        top: 325px;
+        right: 33px;
         width: 39%;
 
     }
@@ -684,9 +694,6 @@ main {
 margin: 0;
 padding: 0;
  }
- .play_game_play_instant{
-    display: none;
- }
  .Careers_content{
     padding: 20px;
     max-width: 1140px;
@@ -709,6 +716,9 @@ padding: 0;
  .impoprtant_link{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+ }
+ .banner_text{
+    margin-top: 70px;
  }
 }
 /* responsive css ends */
