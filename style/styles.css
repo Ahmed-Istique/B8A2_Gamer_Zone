@@ -707,6 +707,7 @@ line-height: 30px; /* 150% */
     .play_game_play_instant {
         align-items: center;
         padding: 20px;
+        margin-top: 2.5rem;
     }
 
     .play_game_text_two {
@@ -771,6 +772,13 @@ align-items: normal;
 }
 .play_game_new{
     flex-direction: column-reverse;
+}
+.copy_right{
+    margin-top: 74px;
+}
+.footer{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 }
 /* responsive css ends */
