@@ -104,6 +104,7 @@ ul>li {
     background-repeat: no-repeat;
     max-width: 1140px;
     margin: 0 auto;
+    padding: 148px 0px;
 
 }
 
@@ -146,25 +147,23 @@ main {
     display: flex;
     gap: 12px;
 }
-
-.banner {
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.banner_div{
     background: url(../images/Group14.png);
     background-repeat: no-repeat;
     background-position: bottom left;
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 .banner_images {
-    width: 85%;
-    padding-right: 240px;
-}
-
-.banner_text {
-    padding-left: 240px;
+    width: 100%;
 }
 
 /* banner design css starts */
@@ -230,10 +229,12 @@ main {
     text-transform: uppercase;
 
 }
-.header_button{
+
+.header_button {
     margin-top: 40px;
-    
+
 }
+
 .Sign_In {
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -246,9 +247,11 @@ main {
     margin-right: 24px;
 
 }
-.Go_Rogue{
+
+.Go_Rogue {
     border-radius: 48px;
-    background: #4EC5F7;;
+    background: #4EC5F7;
+    ;
     padding: 21px 40px;
     color: #FFF;
     font-family: Work Sans;
@@ -460,7 +463,7 @@ main {
     margin: 120px 0px;
 }
 
-#careers {
+#careers_head {
     color: #FFF;
     font-family: Work Sans;
     font-size: 3rem;
@@ -666,7 +669,7 @@ main {
     .video_media,
     .play_game,
     .career_text_container,
-   
+
     .div_one,
     .div_two,
     .link,
@@ -833,7 +836,8 @@ main {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .header_button{
+
+    .header_button {
         font-size: 10px;
     }
 }
