@@ -731,9 +731,6 @@ padding: 0;
     padding: 20px;
     max-width: 1140px;
  }
- .See_all_positions{
-  
- }
  .image_categories{
     display: grid;
     grid-template-columns: repeat(4, 3fr);
