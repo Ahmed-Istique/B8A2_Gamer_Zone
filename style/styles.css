@@ -158,7 +158,7 @@ main {
     margin: 0 auto;
 }
 .banner_images {
-    width: 50%;
+    width: 85%;
     padding-right: 240px;
 }
 .banner_text{
@@ -397,6 +397,15 @@ line-height: 30px; /* 150% */
     margin-bottom: 196px;
     margin-top: 120px;
 }
+.play_game_new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 196px;
+    margin-top: 120px;
+}
+
+
 
 .play_game_media {
     align-items: center;
@@ -621,7 +630,8 @@ line-height: 30px; /* 150% */
     .link,
     .icon,
     .impoprtant_link,
-    .banner
+    .banner,
+    .play_game_new
      {
         flex-direction: column;
     }
@@ -689,8 +699,8 @@ line-height: 30px; /* 150% */
 
     .play_game_4 {
         position: relative;
-        top: -101px;
-        right: -179px;
+        top: 338px;
+        right: -192px;
         width: 45%;
     }
 
@@ -755,6 +765,12 @@ align-items: normal;
     padding: 0px;
     text-align: center;
 
+}
+.banner{
+    flex-direction: column-reverse;
+}
+.play_game_new{
+    flex-direction: column-reverse;
 }
 }
 /* responsive css ends */
